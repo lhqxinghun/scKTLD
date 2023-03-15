@@ -39,7 +39,7 @@ $ cd scKTLD
 $ python example.py
 # If it works properly, the following figure will be shown
 ```
-![image](https://github.com/lhunxinghun/scKTLD/blob/main/data/exp-sc/Result.png)
+![image](https://github.com/lhqxinghun/scKTLD/blob/main/data/exp-sc/Result.png)
 
 More detailed examples can be find in the jupyter notebook *example.ipynb*
 
