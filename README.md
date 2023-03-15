@@ -23,7 +23,7 @@ Make sure all all the packages listed in the *requirements.txt* are installed.
 
 (1) Download the folder *scKTLD* by git clone
 ```
-$ git clone https://github.com/anonymous-doubleblind/scKTLD/
+$ git clone https://github.com/lhqxinghun/scKTLD/
 ```
 (2) Install the package *scKTLD* with the following command:
 ```
