@@ -44,4 +44,4 @@ $ python example.py
 More detailed examples can be find in the jupyter notebook *example.ipynb*
 
 ## 3. Contact
-Not avaliable now
+hongqianglv@mail.xjtu.edu.cn OR liuerhu@stu.xjtu.edu.cn
