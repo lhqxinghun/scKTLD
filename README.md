@@ -10,7 +10,7 @@ scKTLD is a method designed for the identification of TAD-like domains on single
 - ubuntu 18.04
 
 **2.2 Required Python Packages**
-Make sure all all the packages listed in the *requirements.txt* are installed.
+Make sure that all the packages listed in the *requirements.txt* are installed.
 
 - Python >= 3.6
 - scipy >= 1.5.2
