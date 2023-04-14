@@ -44,7 +44,7 @@ $ python example.py
 More detailed examples can be find in the jupyter notebook *example.ipynb*
 
 ## 3. Usage
-(1) Key function *callTLD*
+### 3.1 Key function *callTLD*
 
 
 ## 4. Contact
