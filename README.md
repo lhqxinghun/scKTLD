@@ -44,13 +44,23 @@ $ python example.py
 More detailed examples can be find in the jupyter notebook *example.ipynb*
 
 ## 3. Usage
-### 3.1 Key function *callTLD*
+(1) The key function in this package is *callTLD*, it has the following input and output:
 #### Input:
-- **graph** np.ndarray, the dense format of a contact matrix.
+- **graph** np.ndarray, the dense format of a contact matrix, i.e. n×n matrix, An example is shown in  "./data/exp-sc/gm12878_cell7_chr3_dense.txt"
 - **dimension** int, dimension of the embedding vectors of nodes.
 - **penalty** float, penalty constant during changepoint detection.
 - **brecon** bool, whether or not to return the reconstructed Hi-C map.
 #### Output:
 If brecon is false, the *callTLD* function only returns a list of domain boundaires, else it will return the domain boundaries as well as a reconstructed Hi-C map
+
+(2) For sparse format of contact matrix, scKTLD provides function *edge2adj* to convert it to adjacency matrix (dense format)
+#### Input:
+- **edge** np.ndarray, the sparse format of a contact matrix, i.e. three columns. An example is shown in "./data/exp-sc/gm12878_cell7_chr3_sparse.txt".
+- **chr** string, chromosome number, e.g. 'chr1'
+- **resolution** int, resolution of the contact matrix, e.g. 50000
+- **reference** string, reference genome, e.g. "mm9"
+#### Output:
+The dense format of a contact matrix, which can be directly input to the fucntion *callTLD*
+
 ## 4. Contact
 hongqianglv@mail.xjtu.edu.cn OR liuerhu@stu.xjtu.edu.cn
