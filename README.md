@@ -43,5 +43,9 @@ $ python example.py
 
 More detailed examples can be find in the jupyter notebook *example.ipynb*
 
-## 3. Contact
+## 3. Usage
+(1) Key function *callTLD*
+
+
+## 4. Contact
 hongqianglv@mail.xjtu.edu.cn OR liuerhu@stu.xjtu.edu.cn
