@@ -51,7 +51,7 @@ More detailed examples can be find in the jupyter notebook *example.ipynb*
 - **penalty** float, penalty constant during changepoint detection.
 - **brecon** bool, whether or not to return the reconstructed Hi-C map.
 #### Output:
-If brecon is false, the *callTLD* function only returns a list of domain boundaires, else it will return the domain boundaries as well as a reconstructed Hi-C map
+If brecon is false, the *callTLD* function will only return a list of domain boundaires, else it will return the domain boundaries as well as a reconstructed Hi-C map
 
 (2) For sparse format of contact matrix, scKTLD provides function *edge2adj* to convert it to adjacency matrix (dense format)
 #### Input:
