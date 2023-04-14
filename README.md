@@ -60,7 +60,7 @@ If brecon is false, the *callTLD* function will only return a list of domain bou
 - **resolution** int, resolution of the contact matrix, e.g. 50000
 - **reference** string, reference genome, e.g. "mm9"
 #### Output:
-The contact matrix in a dense format
+The contact matrix in dense format
 
 ## 4. Contact
 hongqianglv@mail.xjtu.edu.cn OR liuerhu@stu.xjtu.edu.cn
