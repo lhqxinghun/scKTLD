@@ -45,10 +45,12 @@ More detailed examples can be find in the jupyter notebook *example.ipynb*
 
 ## 3. Usage
 ### 3.1 Key function *callTLD*
-#### Input parameters:
+#### Input:
 - **graph** np.ndarray, the dense format of a contact matrix.
 - **dimension** int, dimension of the embedding vectors of nodes.
 - **penalty** float, penalty constant during changepoint detection.
 - **brecon** bool, whether or not to return the reconstructed Hi-C map.
+#### Output:
+If brecon is false, the *callTLD* function only returns a list of domain boundaires, else it will return the domain boundaries as well as a reconstructed Hi-C map
 ## 4. Contact
 hongqianglv@mail.xjtu.edu.cn OR liuerhu@stu.xjtu.edu.cn
