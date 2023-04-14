@@ -53,7 +53,7 @@ More detailed examples can be find in the jupyter notebook *example.ipynb*
 #### Output:
 If brecon is false, the *callTLD* function will only return a list of domain boundaires, else it will return the domain boundaries as well as a reconstructed Hi-C map
 
-(2) For sparse format of a contact matrix, scKTLD provides function *edge2adj* to convert it to adjacency matrix (dense format), which can be directly input to the fucntion *callTLD*
+(2) For sparse format of a contact matrix, scKTLD provides function *edge2adj* to convert it to an adjacency matrix (dense format), which can be directly input to the fucntion *callTLD*
 #### Input:
 - **edge** np.ndarray, the sparse format of a contact matrix, i.e. three columns. An example is shown in "./data/exp-sc/gm12878_cell7_chr3_sparse.txt".
 - **chr** string, chromosome number, e.g. 'chr1'
