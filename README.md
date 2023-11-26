@@ -28,6 +28,7 @@ $ git clone https://github.com/lhqxinghun/scKTLD/
 (2) Install the package *scKTLD* with the following command:
 ```
 $ conda create -n scKTLD python=3.6
+$ conda activate scKTLD
 $ pip install Cython
 $ cd scKTLD
 $ pip install . #or you can try python setup.py install 
