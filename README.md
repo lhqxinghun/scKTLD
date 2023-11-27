@@ -33,8 +33,21 @@ $ pip install Cython
 $ cd scKTLD
 $ pip install . #or you can try python setup.py install 
 ```
+**2.4 Or install from standard package source**
 
-**2.4 Run example**
+(1) conda
+```
+$ conda install Cython
+$ conda install scKTLD
+```
+
+(2) PyPI
+```
+$ pip install Cython
+$ pip install scKTLD
+```
+
+**2.5 Run example**
 ```
 $ cd scKTLD
 $ python example.py
