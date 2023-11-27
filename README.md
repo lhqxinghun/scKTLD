@@ -51,8 +51,8 @@ $ pip install scKTLD
 ```
 $ cd scKTLD
 $ python example.py
-# If it works properly, You can find the result file in the output directory, including the *.tld* file that contains the identified
-TAD-like domain boundaries and the *.tiff* file for visualization. The *.tiff* file in the example is shown as follows:
+# If it works properly, You can find the result file in the output directory, including the .tld file that contains the identified
+TAD-like domain boundaries and the .tiff file for visualization. The .tiff file in the example is shown as follows:
 ```
 ![image](https://github.com/lhqxinghun/scKTLD/blob/main/data/exp-sc/Result.png)
 
