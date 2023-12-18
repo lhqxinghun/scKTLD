@@ -46,7 +46,5 @@ if bshowfig ==True:
     displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
     plt.show()
 
-
-
 ## Save the TAD-like domains to a text file
 np.savetxt("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".txt", boundary_spec, fmt = '%d')
