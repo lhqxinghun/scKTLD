@@ -5,7 +5,7 @@ from sklearn import datasets
 import numpy as np
 
 import scKTLD.cpd_utils as cpd
-import ticc
+#import ticc
 
 
 # ticc <Multivariate Time Series data  clustering>
