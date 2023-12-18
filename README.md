@@ -39,7 +39,7 @@ PyPI
 ```
 $ conda create -n scKTLD python=3.6
 $ conda activate scKTLD
-$ pip install scKTLD
+$ pip install Cython scKTLD
 ```
 
 **2.5 Run example**
