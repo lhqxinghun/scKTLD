@@ -1,3 +1,4 @@
+from operator import truediv
 import numpy as np
 import sys
 import os
@@ -28,12 +29,23 @@ chr='chr3'
 resolution = 50000
 graph_adj = edge2adj(graph_edge, chr = chr, resolution = resolution, reference = "hg19")
 
-## call TAD-like domains on the input contact matrix
+## Call TAD-like domains on the input contact matrix
 boundary_spec = callTLD(graph_adj)
 
-## Visualize TAD-like domains on the input or reconstructed contact matrix
-displayTLD(graph_adj, boundary_spec, 800, 1000, brecon = True)
 
-plt.show()
-#plt.savefig("path to save/filename.tiff", dpi = 350)
-#plt.close()
+## Save the TAD-like domains to a text file
+np.savetxt("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".txt", boundary_spec, fmt = '%d')
+
+
+## Wheter to directly show visualization or save it to a tiff file
+bshowfig = False
+bsavefig = True
+
+if bsavefig ==True:
+    displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
+    plt.savefig("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".tiff", dpi=350)
+    plt.close()
+
+if bshowfig ==True:
+    displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
+    plt.show()
