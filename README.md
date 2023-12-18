@@ -35,15 +35,10 @@ $ pip install . #or you can try python setup.py install
 ```
 **2.4 Or install from standard package source**
 
-(1) conda
+PyPI
 ```
-$ conda install Cython
-$ conda install scKTLD
-```
-
-(2) PyPI
-```
-$ pip install Cython
+$ conda create -n scKTLD python=3.6
+$ conda activate scKTLD
 $ pip install scKTLD
 ```
 
