@@ -1,0 +1,1 @@
+This directory saves the result of text file and figure file.
