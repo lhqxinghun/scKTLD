@@ -33,10 +33,6 @@ graph_adj = edge2adj(graph_edge, chr = chr, resolution = resolution, reference =
 boundary_spec = callTLD(graph_adj)
 
 
-## Save the TAD-like domains to a text file
-np.savetxt("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".txt", boundary_spec, fmt = '%d')
-
-
 ## Wheter to directly show visualization or save it to a tiff file
 bshowfig = False
 bsavefig = True
@@ -49,3 +45,8 @@ if bsavefig ==True:
 if bshowfig ==True:
     displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
     plt.show()
+
+
+
+## Save the TAD-like domains to a text file
+np.savetxt("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".txt", boundary_spec, fmt = '%d')
