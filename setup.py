@@ -11,9 +11,9 @@ from Cython.Build import cythonize
 
 setup(
     name="scKTLD", ##project name, for install and uninstall
-    version="1.2",
-    author="double-anonymous",
-    author_email="double-anonymous",
+    version="1.2.2",
+    author="Liu Erhu",
+    author_email="liuerhu@stu.xjtu.edu.cn",
 
     packages=find_packages(where="src"),
     package_dir={"":"src"},
