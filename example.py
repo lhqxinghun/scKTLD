@@ -37,12 +37,12 @@ boundary_spec = callTLD(graph_adj)
 bshowfig = False
 bsavefig = True
 
-if bsavefig ==True:
+if bsavefig == True:
     displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
     plt.savefig("./output/ "+ os.path.splitext(os.path.basename(path_input))[0]+".tiff", dpi=350)
     plt.close()
 
-if bshowfig ==True:
+if bshowfig == True:
     displayTLD(graph_adj, boundary_spec, 1500, 1700, brecon = True)
     plt.show()
 
